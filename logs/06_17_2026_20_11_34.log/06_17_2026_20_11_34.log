@@ -1,0 +1,16 @@
+[ 2026-06-17 20:11:36,276 ] 25 root - INFO - Starting ingestion pipeline
+[ 2026-06-17 20:11:36,276 ] 36 root - INFO - Loading markdown file : corpus_faq_interne.md
+[ 2026-06-17 20:11:36,316 ] 36 root - INFO - Loading markdown file : corpus_guide_onboarding.md
+[ 2026-06-17 20:11:36,333 ] 36 root - INFO - Loading markdown file : corpus_note_produit_per.md
+[ 2026-06-17 20:11:36,348 ] 36 root - INFO - Loading markdown file : corpus_README.md
+[ 2026-06-17 20:11:36,360 ] 36 root - INFO - Loading markdown file : corpus_specs_api.md
+[ 2026-06-17 20:11:36,374 ] 50 root - INFO - Loaded 40 markdown documents
+[ 2026-06-17 20:11:36,375 ] 65 root - INFO - Loading ticket file : corpus_tickets_support.json
+[ 2026-06-17 20:11:36,389 ] 110 root - INFO - Loaded 7 tickets
+[ 2026-06-17 20:11:36,389 ] 133 root - INFO - Total documents loaded : 47
+[ 2026-06-17 20:11:36,389 ] 22 root - INFO - Loading embedding model text-embedding-3-small
+[ 2026-06-17 20:11:36,904 ] 30 root - INFO - Embedding model loaded successfully
+[ 2026-06-17 20:11:36,904 ] 16 root - INFO - Creating Chroma vector store
+[ 2026-06-17 20:11:37,753 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2026-06-17 20:11:38,000 ] 24 root - INFO - Vector store created at: C:\Users\nico_\Desktop\test_fm\vector_store
+[ 2026-06-17 20:11:38,000 ] 46 root - INFO - Ingestion pipeline completed successfully
