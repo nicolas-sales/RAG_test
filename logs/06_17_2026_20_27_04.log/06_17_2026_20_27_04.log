@@ -1,0 +1,20 @@
+[ 2026-06-17 20:27:05,267 ] 40 root - INFO - Building RAG pipeline
+[ 2026-06-17 20:27:05,267 ] 22 root - INFO - Loading embedding model text-embedding-3-small
+[ 2026-06-17 20:27:05,812 ] 30 root - INFO - Embedding model loaded successfully
+[ 2026-06-17 20:27:05,812 ] 35 root - INFO - Loading Chroma vector store from: C:\Users\nico_\Desktop\test_fm\vector_store
+[ 2026-06-17 20:27:05,905 ] 44 root - INFO - Vector store loaded successfully
+[ 2026-06-17 20:27:05,905 ] 14 root - INFO - Creating retriever with search_type=mmr, k=4
+[ 2026-06-17 20:27:05,906 ] 23 root - INFO - Retriever created successfully
+[ 2026-06-17 20:27:05,906 ] 20 root - INFO - Loading LLM: gpt-4o-mini
+[ 2026-06-17 20:27:05,926 ] 27 root - INFO - LLM loaded successfully
+[ 2026-06-17 20:27:05,926 ] 76 root - INFO - RAG pipeline built successfully
+[ 2026-06-17 20:29:14,411 ] 85 root - INFO - User question: Comment se déroule la Gestion des réclamations
+[ 2026-06-17 20:29:16,274 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2026-06-17 20:29:16,589 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2026-06-17 20:29:19,754 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2026-06-17 20:29:19,775 ] 129 root - INFO - Answer generated successfully
+[ 2026-06-17 20:31:06,715 ] 85 root - INFO - User question: Comment obtenir un token ?
+[ 2026-06-17 20:31:07,078 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2026-06-17 20:31:07,374 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2026-06-17 20:31:13,042 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2026-06-17 20:31:13,045 ] 129 root - INFO - Answer generated successfully

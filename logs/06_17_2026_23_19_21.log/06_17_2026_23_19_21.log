@@ -1,0 +1,20 @@
+[ 2026-06-17 23:19:22,832 ] 40 root - INFO - Building RAG pipeline
+[ 2026-06-17 23:19:22,832 ] 22 root - INFO - Loading embedding model text-embedding-3-small
+[ 2026-06-17 23:19:23,328 ] 30 root - INFO - Embedding model loaded successfully
+[ 2026-06-17 23:19:23,329 ] 35 root - INFO - Loading Chroma vector store from: C:\Users\nico_\Desktop\test_fm\vector_store
+[ 2026-06-17 23:19:23,475 ] 44 root - INFO - Vector store loaded successfully
+[ 2026-06-17 23:19:23,475 ] 14 root - INFO - Creating retriever with search_type=mmr, k=4
+[ 2026-06-17 23:19:23,476 ] 23 root - INFO - Retriever created successfully
+[ 2026-06-17 23:19:23,476 ] 20 root - INFO - Loading LLM: gpt-4o-mini
+[ 2026-06-17 23:19:23,520 ] 27 root - INFO - LLM loaded successfully
+[ 2026-06-17 23:19:23,523 ] 76 root - INFO - RAG pipeline built successfully
+[ 2026-06-17 23:20:22,910 ] 85 root - INFO - User question: Comment se déroule la gestion des réclamations ?
+[ 2026-06-17 23:20:23,573 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2026-06-17 23:20:23,861 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2026-06-17 23:20:25,070 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2026-06-17 23:20:25,087 ] 129 root - INFO - Answer generated successfully
+[ 2026-06-17 23:28:46,790 ] 85 root - INFO - User question: Où se trouve Paris?
+[ 2026-06-17 23:28:47,466 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2026-06-17 23:28:47,629 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2026-06-17 23:28:49,491 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2026-06-17 23:28:49,499 ] 129 root - INFO - Answer generated successfully

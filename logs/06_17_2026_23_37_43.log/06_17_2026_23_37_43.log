@@ -1,0 +1,19 @@
+[ 2026-06-17 23:37:44,595 ] 40 root - INFO - Building RAG pipeline
+[ 2026-06-17 23:37:44,596 ] 22 root - INFO - Loading embedding model text-embedding-3-small
+[ 2026-06-17 23:37:45,131 ] 30 root - INFO - Embedding model loaded successfully
+[ 2026-06-17 23:37:45,132 ] 35 root - INFO - Loading Chroma vector store from: C:\Users\nico_\Desktop\test_fm\vector_store
+[ 2026-06-17 23:37:45,270 ] 44 root - INFO - Vector store loaded successfully
+[ 2026-06-17 23:37:45,271 ] 14 root - INFO - Creating retriever with search_type=mmr, k=4
+[ 2026-06-17 23:37:45,271 ] 23 root - INFO - Retriever created successfully
+[ 2026-06-17 23:37:45,271 ] 20 root - INFO - Loading LLM: gpt-4o-mini
+[ 2026-06-17 23:37:45,301 ] 27 root - INFO - LLM loaded successfully
+[ 2026-06-17 23:37:45,302 ] 76 root - INFO - RAG pipeline built successfully
+[ 2026-06-17 23:37:59,396 ] 85 root - INFO - User question: Où se trouve Paris?
+[ 2026-06-17 23:37:59,891 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2026-06-17 23:38:00,679 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2026-06-17 23:38:01,644 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2026-06-17 23:38:29,621 ] 85 root - INFO - User question: Comment obtenir un token ?
+[ 2026-06-17 23:38:29,835 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2026-06-17 23:38:30,022 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2026-06-17 23:38:32,317 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2026-06-17 23:38:32,321 ] 137 root - INFO - Answer generated successfully

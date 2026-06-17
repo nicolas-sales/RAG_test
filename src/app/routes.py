@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 
-from src.pipeline.rag_pipeline import RAGPipeline
+from src.pipelines.rag_pipeline import RAGPipeline
 from src.app.schemas import QuestionRequest
 
 router = APIRouter()

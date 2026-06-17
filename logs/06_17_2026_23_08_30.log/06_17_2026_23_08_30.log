@@ -1,0 +1,30 @@
+[ 2026-06-17 23:08:30,664 ] 40 root - INFO - Building RAG pipeline
+[ 2026-06-17 23:08:30,665 ] 22 root - INFO - Loading embedding model text-embedding-3-small
+[ 2026-06-17 23:08:31,016 ] 30 root - INFO - Embedding model loaded successfully
+[ 2026-06-17 23:08:31,016 ] 35 root - INFO - Loading Chroma vector store from: C:\Users\nico_\Desktop\test_fm\vector_store
+[ 2026-06-17 23:08:31,083 ] 44 root - INFO - Vector store loaded successfully
+[ 2026-06-17 23:08:31,083 ] 14 root - INFO - Creating retriever with search_type=mmr, k=4
+[ 2026-06-17 23:08:31,083 ] 23 root - INFO - Retriever created successfully
+[ 2026-06-17 23:08:31,083 ] 20 root - INFO - Loading LLM: gpt-4o-mini
+[ 2026-06-17 23:08:31,095 ] 27 root - INFO - LLM loaded successfully
+[ 2026-06-17 23:08:31,095 ] 76 root - INFO - RAG pipeline built successfully
+[ 2026-06-17 23:08:31,095 ] 85 root - INFO - User question: Comment se déroule la gestion des réclamations ?
+[ 2026-06-17 23:08:31,459 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2026-06-17 23:08:32,201 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2026-06-17 23:08:33,741 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2026-06-17 23:08:33,818 ] 129 root - INFO - Answer generated successfully
+[ 2026-06-17 23:08:33,819 ] 85 root - INFO - User question: Comment obtenir un token ?
+[ 2026-06-17 23:08:33,952 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2026-06-17 23:08:34,099 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2026-06-17 23:08:37,068 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2026-06-17 23:08:37,075 ] 129 root - INFO - Answer generated successfully
+[ 2026-06-17 23:08:37,076 ] 85 root - INFO - User question: Retrait bloqué depuis 5 jours
+[ 2026-06-17 23:08:37,225 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2026-06-17 23:08:37,473 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2026-06-17 23:08:38,750 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2026-06-17 23:08:38,765 ] 129 root - INFO - Answer generated successfully
+[ 2026-06-17 23:08:38,765 ] 85 root - INFO - User question: Quelle est la météo à Paris ?
+[ 2026-06-17 23:08:38,896 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2026-06-17 23:08:39,051 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2026-06-17 23:08:39,804 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2026-06-17 23:08:39,811 ] 129 root - INFO - Answer generated successfully

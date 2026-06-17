@@ -66,11 +66,11 @@ class RAGPipeline:
             self.rag_chain = (
                 {
                     "context": self.retriever | self._format_docs,
-                    "question": RunnablePassthrough(),
+                    "question": RunnablePassthrough(), # Pour que le prompt recoive la question
                 }
                 | self.prompt
                 | self.llm
-                | StrOutputParser()
+                | StrOutputParser() # Permet d'obtenir juste le content dans AIMessage(content="reponse...")
             )
 
             logging.info("RAG pipeline built successfully")
@@ -87,6 +87,14 @@ class RAGPipeline:
             docs = self.retriever.invoke(question)
 
             answer = self.rag_chain.invoke(question)
+
+            if "Je ne trouve pas cette information" in answer:
+
+                return {
+                    "question": question,
+                    "answer": answer,
+                    "sources": []
+                    }
 
             sources = []
 

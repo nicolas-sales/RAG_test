@@ -1,6 +1,12 @@
+from pathlib import Path
+import sys
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+sys.path.append(str(PROJECT_ROOT))
+
 import streamlit as st
 
-from src.pipeline.rag_pipeline import RAGPipeline
+from src.pipelines.rag_pipeline import RAGPipeline
 
 
 st.set_page_config(
