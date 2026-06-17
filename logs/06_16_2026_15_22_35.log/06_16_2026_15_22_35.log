@@ -1,0 +1,9 @@
+[ 2026-06-16 15:22:35,654 ] 36 root - INFO - Loading markdown file : corpus_faq_interne.md
+[ 2026-06-16 15:22:35,655 ] 36 root - INFO - Loading markdown file : corpus_guide_onboarding.md
+[ 2026-06-16 15:22:35,656 ] 36 root - INFO - Loading markdown file : corpus_note_produit_per.md
+[ 2026-06-16 15:22:35,657 ] 36 root - INFO - Loading markdown file : corpus_README.md
+[ 2026-06-16 15:22:35,658 ] 36 root - INFO - Loading markdown file : corpus_specs_api.md
+[ 2026-06-16 15:22:35,658 ] 50 root - INFO - Loaded 40 markdown documents
+[ 2026-06-16 15:22:35,658 ] 65 root - INFO - Loading ticket file : corpus_tickets_support.json
+[ 2026-06-16 15:22:35,678 ] 110 root - INFO - Loaded 7 tickets
+[ 2026-06-16 15:22:35,678 ] 133 root - INFO - Total documents loaded : 47

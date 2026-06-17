@@ -1,0 +1,13 @@
+[ 2026-06-17 12:48:08,434 ] 25 root - INFO - Starting ingestion pipeline
+[ 2026-06-17 12:48:08,434 ] 36 root - INFO - Loading markdown file : corpus_faq_interne.md
+[ 2026-06-17 12:48:08,436 ] 36 root - INFO - Loading markdown file : corpus_guide_onboarding.md
+[ 2026-06-17 12:48:08,438 ] 36 root - INFO - Loading markdown file : corpus_note_produit_per.md
+[ 2026-06-17 12:48:08,459 ] 36 root - INFO - Loading markdown file : corpus_README.md
+[ 2026-06-17 12:48:08,462 ] 36 root - INFO - Loading markdown file : corpus_specs_api.md
+[ 2026-06-17 12:48:08,463 ] 50 root - INFO - Loaded 40 markdown documents
+[ 2026-06-17 12:48:08,468 ] 65 root - INFO - Loading ticket file : corpus_tickets_support.json
+[ 2026-06-17 12:48:08,494 ] 110 root - INFO - Loaded 7 tickets
+[ 2026-06-17 12:48:08,494 ] 133 root - INFO - Total documents loaded : 47
+[ 2026-06-17 12:48:08,495 ] 22 root - INFO - Loading embedding model text-embedding-3-small
+[ 2026-06-17 12:48:09,146 ] 30 root - INFO - Embedding model loaded successfully
+[ 2026-06-17 12:48:09,146 ] 16 root - INFO - Creating Chroma vector store

@@ -1,0 +1,93 @@
+{
+  "tickets": [
+    {
+      "id": "TKT-2025-00112",
+      "date": "2025-04-10",
+      "category": "Retrait",
+      "status": "resolved",
+      "priority": "high",
+      "subject": "Retrait bloqué depuis 5 jours",
+      "description": "J'ai effectué une demande de retrait partiel de 800€ sur mon LER le 05/04. La somme n'est toujours pas créditée sur mon compte bancaire et je n'ai reçu aucun mail de confirmation.",
+      "resolution": "Le retrait était en attente de validation manuelle suite à un changement d'IBAN effectué moins de 72h avant la demande. Mesure de sécurité standard. Le virement a été libéré et crédité le 11/04. L'adhérent a été informé par email et téléphone.",
+      "agent": "Sophie L.",
+      "duration_hours": 28
+    },
+    {
+      "id": "TKT-2025-00087",
+      "date": "2025-03-22",
+      "category": "Espace numérique",
+      "status": "resolved",
+      "priority": "medium",
+      "subject": "Impossible de télécharger mon IFU 2024",
+      "description": "Je souhaite télécharger mon attestation fiscale (IFU) pour ma déclaration d'impôts mais le bouton de téléchargement reste grisé dans mon espace adhérent.",
+      "resolution": "Bug identifié sur les navigateurs Safari version < 17.3. L'adhérent a été guidé pour mettre à jour son navigateur. Correction déployée côté serveur le 25/03 pour contourner le problème sur les versions antérieures.",
+      "agent": "Marc T.",
+      "duration_hours": 72
+    },
+    {
+      "id": "TKT-2025-00203",
+      "date": "2025-04-18",
+      "category": "Fiscalité",
+      "status": "open",
+      "priority": "medium",
+      "subject": "Erreur sur le montant déclaré dans l'IFU",
+      "description": "Mon IFU 2024 indique des intérêts de 412€ mais selon mes calculs et mon relevé de situation, j'aurais dû percevoir 387€. Y a-t-il une erreur ?",
+      "resolution": null,
+      "agent": "En attente d'affectation",
+      "duration_hours": null
+    },
+    {
+      "id": "TKT-2025-00156",
+      "date": "2025-04-02",
+      "category": "Contrat",
+      "status": "resolved",
+      "priority": "low",
+      "subject": "Changement de bénéficiaire refusé en ligne",
+      "description": "J'essaie de modifier le bénéficiaire de mon assurance-vie MultiVie depuis l'espace en ligne mais j'obtiens l'erreur 'Modification non autorisée pour ce type de clause'.",
+      "resolution": "Le contrat de l'adhérent comporte une clause bénéficiaire acceptée (le bénéficiaire a formellement accepté sa désignation). Ce cas nécessite l'accord écrit du bénéficiaire actuel pour toute modification. Courrier explicatif envoyé à l'adhérent avec le formulaire dédié.",
+      "agent": "Julie M.",
+      "duration_hours": 12
+    },
+    {
+      "id": "TKT-2025-00091",
+      "date": "2025-03-28",
+      "category": "Ouverture contrat",
+      "status": "resolved",
+      "priority": "medium",
+      "subject": "Délai d'ouverture LER anormalement long",
+      "description": "J'ai envoyé mon dossier d'ouverture de LER par courrier le 10/03. Je n'ai toujours aucune confirmation 18 jours après.",
+      "resolution": "Le dossier postal a été reçu mais un document manquait (justificatif de domicile de moins de 3 mois — le document fourni datait de 4 mois). Courrier de relance envoyé à l'adhérent le 20/03, restée sans réponse. L'adhérent a été contacté par téléphone, a fourni le document par email. Contrat ouvert le 29/03.",
+      "agent": "Sophie L.",
+      "duration_hours": 456
+    },
+    {
+      "id": "TKT-2025-00178",
+      "date": "2025-04-08",
+      "category": "PER",
+      "status": "resolved",
+      "priority": "high",
+      "subject": "Plafond déductible PER incorrect sur simulation",
+      "description": "L'outil de simulation de déductibilité du PER affiche un plafond de 32 908€ alors que mon conseiller fiscal m'indique 35 194€ pour 2025.",
+      "resolution": "Bug confirmé dans l'outil de simulation qui utilisait encore les plafonds 2024. Correction déployée le 10/04. Le plafond 2025 est bien de 35 194€ (soit 10% de 8 Pass 2025 = 10% × 351 936€). L'adhérent informé et invité à relancer la simulation.",
+      "agent": "Marc T.",
+      "duration_hours": 48
+    },
+    {
+      "id": "TKT-2025-00220",
+      "date": "2025-04-21",
+      "category": "Sécurité",
+      "status": "open",
+      "priority": "high",
+      "subject": "Connexion suspecte sur mon espace adhérent",
+      "description": "J'ai reçu un email d'alerte indiquant une connexion depuis Roumanie à 3h du matin. Je n'ai pas effectué cette connexion.",
+      "resolution": null,
+      "agent": "En traitement équipe sécurité",
+      "duration_hours": null
+    }
+  ],
+  "metadata": {
+    "total_tickets": 7,
+    "period": "Mars-Avril 2025",
+    "categories": ["Retrait", "Espace numérique", "Fiscalité", "Contrat", "Ouverture contrat", "PER", "Sécurité"]
+  }
+}
