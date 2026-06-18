@@ -225,20 +225,27 @@ Documentation Swagger :
 http://localhost:8000/docs
 ```
 
+### Question métier
+
 ![Interface FastAPI1Q](images/FastAPI1Q.png)
 
+### Réponse métier
 
 ![Interface FastAPI1R](images/FastAPI1R.png)
 
+### Question métier
 
 ![Interface FastAPI2Q](images/FastAPI2Q.png)
 
+### Réponse métier
 
 ![Interface FastAPI2R](images/FastAPI2R.png)
 
+### Question hors corpus
 
 ![Interface FastAPI3QParis](images/FastAPI3QParis.png)
 
+### Réponse hors corpus
 
 ![Interface FastAPI3RParis](images/FastAPI3RParis.png)
 
