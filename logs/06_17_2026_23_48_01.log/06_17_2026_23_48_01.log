@@ -1,0 +1,24 @@
+[ 2026-06-17 23:48:02,231 ] 40 root - INFO - Building RAG pipeline
+[ 2026-06-17 23:48:02,232 ] 22 root - INFO - Loading embedding model text-embedding-3-small
+[ 2026-06-17 23:48:02,608 ] 30 root - INFO - Embedding model loaded successfully
+[ 2026-06-17 23:48:02,608 ] 35 root - INFO - Loading Chroma vector store from: C:\Users\nico_\Desktop\test_fm\vector_store
+[ 2026-06-17 23:48:02,681 ] 44 root - INFO - Vector store loaded successfully
+[ 2026-06-17 23:48:02,681 ] 14 root - INFO - Creating retriever with search_type=mmr, k=4
+[ 2026-06-17 23:48:02,681 ] 23 root - INFO - Retriever created successfully
+[ 2026-06-17 23:48:02,682 ] 20 root - INFO - Loading LLM: gpt-4o-mini
+[ 2026-06-17 23:48:02,694 ] 27 root - INFO - LLM loaded successfully
+[ 2026-06-17 23:48:02,694 ] 76 root - INFO - RAG pipeline built successfully
+[ 2026-06-17 23:48:18,575 ] 85 root - INFO - User question: Comment se déroule la gestion des réclamations ?
+[ 2026-06-17 23:48:19,577 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2026-06-17 23:48:19,793 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2026-06-17 23:48:20,916 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2026-06-17 23:48:20,941 ] 137 root - INFO - Answer generated successfully
+[ 2026-06-17 23:48:42,253 ] 85 root - INFO - User question: Où se trouve Paris?
+[ 2026-06-17 23:48:42,465 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2026-06-17 23:48:42,641 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2026-06-17 23:48:43,909 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2026-06-17 23:49:07,250 ] 85 root - INFO - User question: Retrait bloqué depuis 5 jours
+[ 2026-06-17 23:49:07,446 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2026-06-17 23:49:07,615 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2026-06-17 23:49:10,516 ] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2026-06-17 23:49:10,523 ] 137 root - INFO - Answer generated successfully

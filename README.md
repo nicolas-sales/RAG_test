@@ -102,7 +102,7 @@ Le stockage vectoriel repose sur :
 ChromaDB
 ```
 
-Les embeddings sont persistés localement afin d'éviter de reconstruire la base à chaque exécution.
+Les embeddings sont enregistrés localement afin d'éviter de reconstruire la base à chaque exécution.
 
 ---
 
@@ -172,13 +172,13 @@ L'ensemble du pipeline est journalisé afin de faciliter le débogage et le suiv
 ## Création de l'environnement
 
 ```bash
-python -m venv venv
+conda create -p venvtest python==3.13 -y
 ```
 
 Activation :
 
 ```bash
-venv\Scripts\activate
+conda activate venvtest
 ```
 
 ## Installation des dépendances
@@ -192,7 +192,7 @@ pip install -r requirements.txt
 Créer un fichier `.env` :
 
 ```env
-OPENAI_API_KEY=your_api_key
+OPENAI_API_KEY="..."
 ```
 
 ---
@@ -225,6 +225,16 @@ Documentation Swagger :
 http://localhost:8000/docs
 ```
 
+![Interface FastAPI1Q](images/FastAPI1Q.png)
+![Interface FastAPI1R](images/FastAPI1R.png)
+
+![Interface FastAPI2Q](images/FastAPI2Q.png)
+![Interface FastAPI2R](images/FastAPI2R.png)
+
+![Interface FastAPI3QParis](images/FastAPI3QParis.png)
+![Interface FastAPI3RParis](images/FastAPI3RParis.png)
+
+
 ---
 
 # Lancement de l'interface Streamlit
@@ -232,6 +242,10 @@ http://localhost:8000/docs
 ```bash
 streamlit run src/app/streamlit_app.py
 ```
+
+[interface Streamlit1](images/streamlit1.png)
+[interface Streamlit2](images/streamlit2.png)
+
 
 ---
 
@@ -283,7 +297,7 @@ Résultat :
 Question :
 
 ```text
-Quelle est la météo à Paris ?
+Où se trouve Paris ?
 ```
 
 Résultat :
