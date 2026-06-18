@@ -226,12 +226,20 @@ http://localhost:8000/docs
 ```
 
 ![Interface FastAPI1Q](images/FastAPI1Q.png)
+
+
 ![Interface FastAPI1R](images/FastAPI1R.png)
 
+
 ![Interface FastAPI2Q](images/FastAPI2Q.png)
+
+
 ![Interface FastAPI2R](images/FastAPI2R.png)
 
+
 ![Interface FastAPI3QParis](images/FastAPI3QParis.png)
+
+
 ![Interface FastAPI3RParis](images/FastAPI3RParis.png)
 
 
@@ -243,8 +251,10 @@ http://localhost:8000/docs
 streamlit run src/app/streamlit_app.py
 ```
 
-[interface Streamlit1](images/streamlit1.png)
-[interface Streamlit2](images/streamlit2.png)
+![interface Streamlit1](images/streamlit1.png)
+
+
+![interface Streamlit2](images/streamlit2.png)
 
 
 ---
